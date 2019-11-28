@@ -25,7 +25,6 @@ import gi
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, GObject, GdkPixbuf
 
-
 # Import Python standard modules
 from gi.repository import Gio
 import cgi
@@ -33,6 +32,7 @@ import datetime
 import json
 import math
 import os
+import pathlib
 import pickle
 import re
 import shutil
@@ -1918,6 +1918,7 @@ class TartubeApp(Gtk.Application):
         }
 
         # Try to save the file
+        pathlib.Path(os.path.dirname(config_file_path)).mkdir(parents=True, exist_ok=True)
         try:
             with open(config_file_path, 'w') as outfile:
                 json.dump(json_dict, outfile, indent=4)
