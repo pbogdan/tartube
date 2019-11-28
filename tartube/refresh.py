@@ -30,8 +30,8 @@ import threading
 
 
 # Import our modules
-import formats
-import media
+from tartube import formats
+from tartube import media
 
 
 # Classes

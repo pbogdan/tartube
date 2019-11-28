@@ -56,18 +56,18 @@ except:
 
 # Import our modules
 import __main__
-import config
-import dialogue
-import downloads
-import files
-import formats
-import mainwin
-import media
-import options
-import refresh
-import testing
-import updates
-import utils
+from tartube import config
+from tartube import dialogue
+from tartube import downloads
+from tartube import files
+from tartube import formats
+from tartube import mainwin
+from tartube import media
+from tartube import options
+from tartube import refresh
+from tartube import testing
+from tartube import updates
+from tartube import utils
 
 
 # !!! Debugging flag

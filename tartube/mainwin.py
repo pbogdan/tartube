@@ -39,13 +39,13 @@ import time
 
 
 # Import our modules
-import config
-import formats
+from tartube import config
+from tartube import formats
 import __main__
-import mainapp
-import media
-import options
-import utils
+from tartube import mainapp
+from tartube import media
+from tartube import options
+from tartube import utils
 
 
 # !!! Debugging flag

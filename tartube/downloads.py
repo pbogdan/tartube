@@ -42,11 +42,11 @@ import time
 
 
 # Import our modules
-import formats
-import mainapp
-import media
-import options
-import utils
+from tartube import formats
+from tartube import mainapp
+from tartube import media
+from tartube import options
+from tartube import utils
 
 
 # !!! Debugging flag

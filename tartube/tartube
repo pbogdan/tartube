@@ -30,7 +30,7 @@ import sys
 
 
 # Import our modules
-import mainapp
+from tartube import mainapp
 
 
 # 'Global' variables

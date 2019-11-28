@@ -32,11 +32,11 @@ import os
 
 # Import our modules
 import __main__
-import formats
-import mainapp
-import mainwin
-import media
-import utils
+from tartube import formats
+from tartube import mainapp
+from tartube import mainwin
+from tartube import media
+from tartube import utils
 
 
 # Classes

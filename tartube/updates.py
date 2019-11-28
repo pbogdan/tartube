@@ -37,8 +37,8 @@ import threading
 
 
 # Import our modules
-import downloads
-import utils
+from tartube import downloads
+from tartube import utils
 
 
 # Classes

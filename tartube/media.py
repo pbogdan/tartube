@@ -33,8 +33,8 @@ import time
 
 
 # Import our modules
-import mainapp
-import utils
+from tartube import mainapp
+from tartube import utils
 
 
 # Classes

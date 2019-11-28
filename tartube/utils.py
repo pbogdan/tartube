@@ -37,8 +37,8 @@ import textwrap
 
 
 # Import our modules
-import formats
-import mainapp
+from tartube import formats
+from tartube import mainapp
 
 
 # Functions

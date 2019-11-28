@@ -29,10 +29,10 @@ import os
 
 
 # Import our modules
-import formats
-import mainapp
-import media
-import utils
+from tartube import formats
+from tartube import mainapp
+from tartube import media
+from tartube import utils
 
 
 # Classes
